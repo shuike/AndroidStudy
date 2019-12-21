@@ -1,0 +1,19 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.skit.customview" >
+    <application>
+        <activity android:name=".MainActivity"
+            android:label="View"/>
+        <activity android:name=".ViewScrollActivity"
+            android:label="scrollTo/scrollBy"/>
+        <activity android:name=".ViewAnimationActivity"
+            android:label="View动画"/>
+        <activity android:name=".ObjectAnimatorActivity"
+            android:label="属性动画"/>
+        <activity android:name=".LayoutParamsActivity"
+            android:label="改变布局参数"/>
+        <activity android:name=".ViewMeasureActivity"
+            android:label="ViewMeasure"/>
+        <activity android:name=".TouchViewActivity"
+            android:label="跟随手指移动的View"/>
+    </application>
+</manifest>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.thelifecycle">
+
+    <application>
+        <activity
+            android:name=".AActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="AActivity" />
+        <activity
+            android:name=".BActivity"
+            android:label="BActivity" />
+    </application>
+
+</manifest>
