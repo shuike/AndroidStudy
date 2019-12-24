@@ -1,22 +1,16 @@
 package com.skit.androidstudy;
 
 import android.os.Bundle;
-import android.view.LayoutInflater;
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
-import android.widget.BaseAdapter;
 import android.widget.ListView;
-import android.widget.TextView;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.alibaba.android.arouter.launcher.ARouter;
 
-import java.util.HashMap;
-import java.util.Map;
 
 /**
  * Author: shuike,
@@ -29,12 +23,12 @@ public class MainActivity extends AppCompatActivity {
             {
                     "/route/lifecycle",
                     "/view/main",
-                    "/sqLite/main"
+                    "/sqLite/main",
             },
             {
                     "生命周期",
                     "View",
-                    "SQLite数据库"
+                    "SQLite数据库",
             },
     };
 

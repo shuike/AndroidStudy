@@ -26,6 +26,10 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+    compileOptions {
+        sourceCompatibility = 1.8
+        targetCompatibility = 1.8
+    }
 }
 
 dependencies {
@@ -36,7 +40,7 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
     implementation project(path: ':lib_common')
     annotationProcessor "com.alibaba:arouter-compiler:$rootProject.ext.alibaba.arouter_compiler"
-    if(!isRunAlone){
+    if (!isRunAlone) {
         implementation project(path: ':the_lifecycle')
         implementation project(path: ':customview')
         implementation project(path: ':sqlite')
