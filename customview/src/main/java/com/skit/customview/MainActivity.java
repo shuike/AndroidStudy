@@ -37,7 +37,8 @@ public class MainActivity extends BaseActivity {
             {
                     "ViewMeasure",
                     "跟随手指移动的View",
-            },
+                    "CodeView",
+            }
     };
     Class[][] classes = {
             {
@@ -48,7 +49,8 @@ public class MainActivity extends BaseActivity {
             },
             {
                     ViewMeasureActivity.class,
-                    TouchViewActivity.class
+                    TouchViewActivity.class,
+                    CodeViewActivity.class
             }
     };
 

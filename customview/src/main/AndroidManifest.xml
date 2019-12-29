@@ -15,5 +15,7 @@
             android:label="ViewMeasure"/>
         <activity android:name=".TouchViewActivity"
             android:label="跟随手指移动的View"/>
+        <activity android:name=".CodeViewActivity"
+            android:label="CODEVIEW"/>
     </application>
 </manifest>

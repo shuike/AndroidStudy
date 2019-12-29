@@ -1,2 +1,2 @@
-include ':app', ':lib_common',':the_lifecycle', ':customview', ':sqlite'
+include ':app', ':lib_common',':the_lifecycle', ':customview', ':sqlite', ':highcodeview'
 rootProject.name='AndroidStudy'
